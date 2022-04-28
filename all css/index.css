@@ -1,0 +1,95 @@
+/* navbar */
+nav{
+   margin-bottom:-20px;
+
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: burlywood;
+  }
+
+
+
+/* css for chat box */
+.chat-box-container {
+background: #333;
+color: #fff;
+width: 295px;
+height: 290px;
+border-radius: 20px 20px 0px 0px;
+font-family: 'Quicksand', sans-serif;
+bottom: -500px;
+right: 15px;
+position: fixed;
+display: block;
+animation: slideUp .5s forwards;
+animation-delay: 3s;
+padding-bottom: 20px;
+}
+
+.chat-box h4 {
+padding-top: 10px;
+}
+
+.chat-box {
+text-align: center;
+padding-right: 12px;
+padding-left: 12px;
+}
+
+.chat-box a{
+color: #fff;
+top: 22px !important;
+display: block;
+position: relative;
+background: #f59221;
+padding: 10px;
+text-decoration: none;
+border-radius: 3px;
+max-width: 175px;
+margin: 23px auto;
+}
+
+.chat-box a:hover {
+background: #007aff;
+color: #fff;
+}
+
+.close-btn {
+display: block;
+right: 5px;
+position: absolute;
+font-size: 30px;
+margin-right: 4px;
+color: #f60404;
+font-weight: bold;
+cursor: pointer;
+background-color: none;
+}
+
+@keyframes slideUp {
+100% {bottom: 0;}
+}

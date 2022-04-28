@@ -1,0 +1,63 @@
+/* navbar */
+nav{
+    margin-bottom:-20px;
+    background-color: #333;
+ }
+ ul {
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+     overflow: hidden;
+     background-color: #333;
+   }
+   
+   li {
+     float: left;
+   }
+   
+   li a {
+     display: block;
+     color: white;
+     text-align: center;
+     padding: 14px 16px;
+     text-decoration: none;
+   }
+   
+   li a:hover:not(.active) {
+     background-color: #111;
+   }
+   
+   .active {
+     background-color: burlywood;
+   }
+   .row{
+       display: flex;
+      
+       float: right;
+       margin-top: 200px;
+       
+   }
+   .show-cart li {
+    display: flex;
+  }
+
+  .card-img-top {
+    width: 200px;
+    height: 200px;
+    align-self: center;
+  }
+  .rowan{
+      display: flex;
+      margin-top: 50px;
+     
+  }
+.col{
+    padding: 50px;
+}
+header{
+    text-align: center;
+    font-size: 80px;
+    font-weight: 700;
+    margin-top: 50px;
+    
+}
